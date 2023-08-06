@@ -23,7 +23,7 @@ const Podcast = () => {
         />
       </div>
 
-      <div className="absolute md:right-[-60px] lg:right-[80px]  md:w-[400px] lg:w-[490px] flex  items-center xxxs:bottom-[70px] md:bottom-[-30px] lg:bottom-[-30px] xxxs:pl-8 md:pl-0 lg:pl-0">
+      <div className="absolute md:right-[-60px] lg:right-[80px]  md:w-[400px] lg:w-[490px] flex  items-center xxxs:bottom-[50px] md:bottom-[-30px] lg:bottom-[-30px] xxxs:pl-8 md:pl-0 lg:pl-0">
         <div className="flex xxxs:block lg:flex space-x-9">
           <div className="xxxs:pb-10">
             <h2 className="text-black text-[30px] font-bold font-sans ">
