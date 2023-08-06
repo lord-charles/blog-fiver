@@ -29,17 +29,13 @@ const Header = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="flex justify-between ">
+        <div className="flex justify-between items-center">
           <span
-            className={`flex flex-col  text-black font-serif text-[18px] animate-pulse`}
+            className={`flex   text-black font-serif text-[18px] animate-pulse space-x-1`}
           >
-            <h2 className=" font-serif">THE</h2>
-            <h2 className="relative top-[-10px] left-[20px] font-serif">
-              PRODUCTIVE
-            </h2>
-            <h2 className="relative top-[-20px] left-[120px] font-serif">
-              HINDU
-            </h2>
+            <h2 className="font-serif">THE</h2>
+            <h2 className="font-serif">PRODUCTIVE</h2>
+            <h2 className=" font-serif">HINDU</h2>
           </span>
           <div className="flex items-center space-x-5 ">
             <div className="flex space-x-3 lg:flex md:flex xxxs:hidden">
@@ -66,7 +62,17 @@ const Header = () => {
                 <h className="text-black font-serif">CONTACT US</h>
               </a>
             </div>
-            <div onClick={() => setMenu(!menu)}>
+            <div
+              onClick={() => setMenu(!menu)}
+              className="flex items-center space-x-3"
+            >
+              <Image
+                src={"/icons/search.png"}
+                width={20}
+                height={20}
+                alt="image"
+                className="object-contain lg:hidden md:hidden xxxs:flex"
+              />
               <Image
                 src={"/icons/menu.png"}
                 width={20}
