@@ -31,7 +31,7 @@ const Header = () => {
       >
         <div className="flex justify-between items-center">
           <span
-            className={`flex   text-black font-serif text-[16px] animate-pulse space-x-1`}
+            className={`flex   text-black font-serif text-[16px] space-x-1`}
           >
             <h2 className="font-serif">THE</h2>
             <h2 className="font-serif">PRODUCTIVE</h2>
