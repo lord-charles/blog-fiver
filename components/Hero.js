@@ -54,7 +54,7 @@ const Hero = () => {
                     className="object-contain"
                     alt="image"
                   />
-                  <div className="p-4">
+                  <div className="py-4 pl-4">
                     <h2 className="text-black font-serif text-[10px] font-bold">
                       {item.category}
                     </h2>
