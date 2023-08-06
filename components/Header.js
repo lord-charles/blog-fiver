@@ -30,13 +30,15 @@ const Header = () => {
         viewport={{ once: false, amount: 0.25 }}
       >
         <div className="flex justify-between ">
-          <span className={`flex flex-col  text-black font-serif text-[20px]`}>
-            <h2 className=" font-serif">The</h2>
-            <h2 className="relative top-[-15px] left-[30px] font-serif">
-              Productive
+          <span
+            className={`flex flex-col  text-black font-serif text-[18px] animate-pulse`}
+          >
+            <h2 className=" font-serif">THE</h2>
+            <h2 className="relative top-[-10px] left-[20px] font-serif">
+              PRODUCTIVE
             </h2>
-            <h2 className="relative top-[-30px] left-[115px] font-serif">
-              Hindu
+            <h2 className="relative top-[-20px] left-[120px] font-serif">
+              HINDU
             </h2>
           </span>
           <div className="flex items-center space-x-5 ">

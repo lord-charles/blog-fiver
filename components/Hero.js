@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <div className="lg:mt-[160px] md:mt-[160px] xxxs:mt-[120px] lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px] pt-4">
+    <div className="lg:mt-[150px] md:mt-[150px] xxxs:mt-[110px] lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px] pt-4">
       <div className="lg:flex md:flex xxxs:block  lg:space-x-5 md:space-x-5 xxxs:space-x-0">
         <div className="flex flex-col lg:space-y-0 md:space-y-2 xxxs:space-y-2 md:p-4 lg:p-0 xxxs:p-2">
           <Image
