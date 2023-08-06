@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <div
-      className="fixed top-0 left-0 right-0"
+      className="fixed top-0 left-0 right-0 z-[9999]"
       style={{ backgroundColor: "#fffefe" }}
     >
       <motion.div

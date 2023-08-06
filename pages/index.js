@@ -9,6 +9,7 @@ export default function Home() {
     <div className="min-h-screen" style={{ backgroundColor: "#fffefe" }}>
       <Hero />
       <Podcast />
+      <div className="h-10"></div>
     </div>
   );
 }
