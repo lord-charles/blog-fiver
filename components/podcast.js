@@ -3,7 +3,10 @@ import React from "react";
 
 const Podcast = () => {
   return (
-    <div className="pt-4 flex items-center lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px] border border-black lg:h-[250px] md:h-[220px] xxxs:h-fit overflow-hidden lg:flx-row md:flex-row xxxs:flex-col relative">
+    <div
+      className="pt-4 flex items-center lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px] border border-black lg:h-[250px] md:h-[220px] xxxs:h-fit overflow-hidden lg:flx-row md:flex-row xxxs:flex-col relative"
+      style={{ backgroundColor: "#f3efeb" }}
+    >
       <div className="relative z-[999] lg:left-5 md:left-0 xxxs:left-0 xxxs:top-[-70px] lg:top-0 md:top-0">
         <Image
           src={"/images/productivehindu.png"}
@@ -15,10 +18,10 @@ const Podcast = () => {
       </div>
       <div className="relative md:right-[100px] lg:right-3 xxxs:top-[-280px] md:top-0 lg:top-0">
         <Image
-          src={"/images/podcast.gif"}
+          src={"/images/podcast2.gif"}
           height={500}
           width={500}
-          className="md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px] xxxs:w-[700px] xxxs:h-[500px] xxxs:object-cover relatively "
+          className="md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px] xxxs:w-[700px] xxxs:h-[500px] xxxs:object-cover"
           alt="image"
         />
       </div>
