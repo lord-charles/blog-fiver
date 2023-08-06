@@ -35,8 +35,8 @@ const Header = () => {
             <h2 className="">Productive</h2>
             <h2 className="">Hindu</h2>
           </span>
-          <div className="flex items-center space-x-5">
-            <div className="flex space-x-2">
+          <div className="flex items-center space-x-5 ">
+            <div className="flex space-x-2 lg:flex md:flex xxxs:hidden">
               <a href="facebook.com">
                 <Image
                   src={"/icons/facebook.png"}
@@ -168,6 +168,48 @@ const Header = () => {
             <Link href={"/"}>ADVERTISE</Link>
             <Link href={"/"}>JOIN OUR TEAM</Link>
             <Link href={"/"}>CONTACT</Link>
+          </div>
+
+          <div className="flex space-x-2 lg:hidden md:hidden xxxs:flex justify-center py-2">
+            <a href="facebook.com">
+              <Image
+                src={"/icons/facebook.png"}
+                width={20}
+                height={20}
+                alt="image"
+                className="object-contain"
+              />
+            </a>
+
+            <a href="instagram.com">
+              <Image
+                src={"/icons/instagram.png"}
+                width={20}
+                height={20}
+                alt="image"
+                className="object-contain"
+              />
+            </a>
+
+            <a href="twitter.com">
+              <Image
+                src={"/icons/twitter.png"}
+                width={20}
+                height={20}
+                alt="image"
+                className="object-contain"
+              />
+            </a>
+
+            <a href="whatsapp.com">
+              <Image
+                src={"/icons/whatsapp.png"}
+                width={20}
+                height={20}
+                alt="image"
+                className="object-contain"
+              />
+            </a>
           </div>
         </div>
       </motion.div>
