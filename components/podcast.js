@@ -16,8 +16,8 @@ const Podcast = () => {
       <div className="relative md:right-[100px] lg:right-3 xxxs:top-[-280px] md:top-0 lg:top-0">
         <Image
           src={"/images/podcast.gif"}
-          height={300}
-          width={300}
+          height={500}
+          width={500}
           className="md:w-[400px] md:h-[400px] lg:w-[400px] lg:h-[400px] xxxs:w-[700px] xxxs:h-[500px] xxxs:object-cover relatively "
           alt="image"
         />
