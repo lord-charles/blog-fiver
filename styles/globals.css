@@ -25,3 +25,18 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+
+
+ /* custom pulse */
+ .pulseCtm{
+  animation: pulse 2s  cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+ @keyframes pulseCtm {
+  50% {
+      opacity: 0;
+  }
+}
+}
