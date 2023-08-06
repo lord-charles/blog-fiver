@@ -29,52 +29,39 @@ const Header = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
       >
-        <div className="flex justify-between">
-          <span className={`flex space-x-1 text-black font-serif text-[20px]`}>
-            <h2 className="">The</h2>
-            <h2 className="">Productive</h2>
-            <h2 className="">Hindu</h2>
+        <div className="flex justify-between ">
+          <span className={`flex flex-col  text-black font-serif text-[20px]`}>
+            <h2 className=" font-serif">The</h2>
+            <h2 className="relative top-[-15px] left-[30px] font-serif">
+              Productive
+            </h2>
+            <h2 className="relative top-[-30px] left-[115px] font-serif">
+              Hindu
+            </h2>
           </span>
           <div className="flex items-center space-x-5 ">
-            <div className="flex space-x-2 lg:flex md:flex xxxs:hidden">
-              <a href="facebook.com">
+            <div className="flex space-x-3 lg:flex md:flex xxxs:hidden">
+              <a href="facebook.com" className="flex items-center space-x-2">
                 <Image
-                  src={"/icons/facebook.png"}
+                  src={"/icons/search.png"}
                   width={20}
                   height={20}
                   alt="image"
                   className="object-contain"
                 />
+                <h2 className="text-black font-serif">SEARCH</h2>
               </a>
 
               <a href="instagram.com">
-                <Image
-                  src={"/icons/instagram.png"}
-                  width={20}
-                  height={20}
-                  alt="image"
-                  className="object-contain"
-                />
+                <h2 className="text-black font-serif">ADVERTISE</h2>
               </a>
 
               <a href="twitter.com">
-                <Image
-                  src={"/icons/twitter.png"}
-                  width={20}
-                  height={20}
-                  alt="image"
-                  className="object-contain"
-                />
+                <h className="text-black font-serif">ABOUT</h>
               </a>
 
               <a href="whatsapp.com">
-                <Image
-                  src={"/icons/whatsapp.png"}
-                  width={20}
-                  height={20}
-                  alt="image"
-                  className="object-contain"
-                />
+                <h className="text-black font-serif">CONTACT US</h>
               </a>
             </div>
             <div onClick={() => setMenu(!menu)}>
@@ -83,7 +70,9 @@ const Header = () => {
                 width={20}
                 height={20}
                 alt="image"
-                className={`${menu ? "hidden" : "visible"} `}
+                className={`${
+                  menu ? "hidden" : "visible xxxs:flex"
+                } md:hidden lg:hidden `}
               />
               <Image
                 src={"/icons/close.png"}
@@ -148,7 +137,7 @@ const Header = () => {
         </div>
 
         <div
-          className={`absolute top-[50px] right-6  w-[170px] h-fit rounded-md ${
+          className={`absolute top-[80px] right-6  w-[170px] h-fit rounded-md ${
             menu ? "visible" : "hidden"
           } bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-orange-900 via-amber-100 to-orange-900 pulseCtm`}
         >
@@ -168,48 +157,6 @@ const Header = () => {
             <Link href={"/"}>ADVERTISE</Link>
             <Link href={"/"}>JOIN OUR TEAM</Link>
             <Link href={"/"}>CONTACT</Link>
-          </div>
-
-          <div className="flex space-x-2 lg:hidden md:hidden xxxs:flex justify-center py-2">
-            <a href="facebook.com">
-              <Image
-                src={"/icons/facebook.png"}
-                width={20}
-                height={20}
-                alt="image"
-                className="object-contain"
-              />
-            </a>
-
-            <a href="instagram.com">
-              <Image
-                src={"/icons/instagram.png"}
-                width={20}
-                height={20}
-                alt="image"
-                className="object-contain"
-              />
-            </a>
-
-            <a href="twitter.com">
-              <Image
-                src={"/icons/twitter.png"}
-                width={20}
-                height={20}
-                alt="image"
-                className="object-contain"
-              />
-            </a>
-
-            <a href="whatsapp.com">
-              <Image
-                src={"/icons/whatsapp.png"}
-                width={20}
-                height={20}
-                alt="image"
-                className="object-contain"
-              />
-            </a>
           </div>
         </div>
       </motion.div>

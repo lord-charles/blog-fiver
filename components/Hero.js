@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <div className="lg:mt-[100px] md:mt-[100px] xxxs:mt-[60px] lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px]">
+    <div className="lg:mt-[160px] md:mt-[160px] xxxs:mt-[120px] lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px] pt-4">
       <div className="lg:flex md:flex xxxs:block  lg:space-x-5 md:space-x-5 xxxs:space-x-0">
         <div className="flex flex-col lg:space-y-0 md:space-y-2 xxxs:space-y-2 md:p-4 lg:p-0 xxxs:p-2">
           <Image
@@ -33,15 +33,11 @@ const Hero = () => {
 
         <div>
           <span className="flex space-x-1 justify-center md:flex lg:flex xxxs:hidden">
-            <h2 className="text-gray-600 font-bold font-serif text-[35px]">
-              New
-            </h2>
-            <h2 className="text-gray-600 font-bold font-serif text-[35px] italic">
+            <h2 className="text-black font-bold font-serif text-[33px]">New</h2>
+            <h2 className="text-black font-bold font-serif text-[33px] italic">
               and
             </h2>
-            <h2 className="text-gray-600 font-bold font-serif text-[35px]">
-              Now
-            </h2>
+            <h2 className="text-black font-bold font-serif text-[33px]">Now</h2>
           </span>
           <div className="flex flex-col space-y-4">
             {newandNow.map((item, index) => {
@@ -54,7 +50,7 @@ const Hero = () => {
                     className="object-contain"
                     alt="image"
                   />
-                  <div className="py-4 pl-4">
+                  <div className="py-4 pl-4 pr-2">
                     <h2 className="text-black font-serif text-[10px] font-bold">
                       {item.category}
                     </h2>
