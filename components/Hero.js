@@ -58,7 +58,7 @@ const Hero = () => {
                     <h2 className="text-black font-serif text-[10px] font-bold">
                       {item.category}
                     </h2>
-                    <h2 className="text-black font-serif text-[20px] font-semibold">
+                    <h2 className="text-black font-serif text-[18px] font-semibold">
                       {item.description}
                     </h2>
                   </div>
