@@ -38,4 +38,40 @@ const maqueeData = [
   },
 ];
 
-export { newandNow, maqueeData };
+const weekendp1 = [
+  {
+    category: "FOOD & DRINK",
+    description:
+      "The 10 Most Popular Cocktails Everyone’s Drinking This Summer",
+    image: "/images/weekend1.jpg",
+  },
+  {
+    category: "HEALTHY LIVING",
+    description:
+      "A “Quiet Life” Mindset Is the Key to Romanticizing Your Life–Here’s How to Practice It",
+    image: "/images/weekend2.jpg",
+  },
+  {
+    category: "ENTERTAINING",
+    description: "12 Girls’ Night Ideas That Go Beyond Wine Night",
+    image: "/images/weekend3.jpeg",
+  },
+  {
+    category: "FASHION",
+    description:
+      "Heat Wave Hitting? Here’s How to Survive it While Looking Good",
+    image: "/images/weekend4.png",
+  },
+  {
+    category: "FASHION",
+    description: "RuPaul is fracking at the end of the world",
+    image: "/images/weekend5.avif",
+  },
+  {
+    category: "FASHION",
+    description: "The alternative history of the C-SPAN archives",
+    image: "/images/weekend6.png",
+  },
+];
+
+export { newandNow, maqueeData, weekendp1 };

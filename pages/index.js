@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Hero, Podcast } from "@/components";
+import { Hero, Podcast, Weekend } from "@/components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,6 +10,7 @@ export default function Home() {
       <Hero />
       <Podcast />
       <div className="h-10"></div>
+      <Weekend />
     </div>
   );
 }
