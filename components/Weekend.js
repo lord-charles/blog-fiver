@@ -16,7 +16,7 @@ const Weekend = () => {
       className="lg:mx-[320px] md:mx-[20px] xxxs:mx-[5px]"
     >
       <div className="flex space-x-1 justify-center items-center">
-        <h2 className="text-black font-serif text-[35px]">
+        <h2 className="text-black font-serif md:text-[35px] lg:text-[35px] xxxs:text-[20px]">
           Cheers to the weekend
         </h2>
         <Image src={"/icons/cheers.png"} height={50} width={50} alt="image" />
@@ -27,7 +27,7 @@ const Weekend = () => {
             <motion.div
               key={index}
               className="relative border border-black"
-              variants={fadeIn("bottom", "tween", 0.3, 1.7)}
+              variants={fadeIn("bottom", "tween", 0.3, 1.5)}
             >
               <Image
                 src={item.image}
@@ -37,7 +37,7 @@ const Weekend = () => {
                 className="object-cover w-full h-[400px]"
               />
               <Divider className="bg-black" />
-              <h2 className="text-black font-serif px-1 py-4 text-[16px] h-[80px]">
+              <h2 className="text-black font-serif px-1 py-4 lg:text-[16px] md:text-[16px] xxxs:text-[14px] h-[80px] text-center">
                 {item.description}
               </h2>
             </motion.div>
